@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freez - Kühles Getränk im Sommer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #fff;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            color: #ff4500; /* leuchtend frische Farbe */
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .product-image {
+            width: 80%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .product-description {
+            font-size: 1.1em;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .highlight {
+            color: #00ff00; /* leuchtend frische Farbe */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Freez</h1>
+        <p>Dein Getränkekühler für den Sommer</p>
+    </header>
+    <main>
+        <img src="freez-product.jpg" alt="Freez Produktbild" class="product-image">
+        <p class="product-description">
+            <span class="highlight">Freez</span> ist die perfekte Lösung, um dein Getränk im Sommer eiskalt zu genießen. Unsere kleine Dose, gefüllt mit Ammoniumnitrat und Wasser, reagiert sofort, wenn der Verschluss gezogen wird, und kühlt dein Getränk in Sekundenschnelle ab.
+        </p>
+        <img src="freez-in-action.jpg" alt="Freez in Aktion" class="product-image">
+    </main>
+    <footer>
+        &copy; 2024 Freez - Alle Rechte vorbehalten
+    </footer>
+</body>
+</html>
